@@ -15,3 +15,9 @@ docker run -d -p 9000:9000 \
   -v portainer_data:/data \
   portainer/portainer-ce
 
+# rubyのversionを確認する時
+①ruby -v　ではローカルPCが使用しているrubyの環境が表示されてしまう
+ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.x86_64-darwin24]のような感じ
+②docker run runteq-ruby ruby -v　で、dockerのコンテナのrunteq-rubyタグで使用しているverを知るとき
+ruby 3.0.7p220 (2024-04-23 revision 724a071175) [x86_64-linux]って表示される
+
