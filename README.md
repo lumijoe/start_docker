@@ -21,3 +21,5 @@ ruby 2.6.10p210 (2022-04-12 revision 67958) [universal.x86_64-darwin24]のよう
 ②docker run runteq-ruby ruby -v　で、dockerのコンテナのrunteq-rubyタグで使用しているverを知るとき
 ruby 3.0.7p220 (2024-04-23 revision 724a071175) [x86_64-linux]って表示される
 
+# ローカルのrubyのversionを3.0.0に変更したい時
+rbenv global 3.0.0
